@@ -1,10 +1,19 @@
+# Good approaches
+
+* Avoid to write logic on render functions outside hooks
+* Avoid to use object as a property
+* Use Virtualization
+* Use Pure Components
+* Avoid using the state when it’s possible to. Use refs instead of state to store non-view-related data
+* Use hooks (useCallback, useMemo)
+* Use debounce and throttle 
+* Use whyDidYouRender
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
